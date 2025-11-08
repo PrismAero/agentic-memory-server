@@ -1,0 +1,12 @@
+{
+  "mcp.servers": {
+    "contextual-memory": {
+      "command": "npx",
+      "args": ["@prism.enterprises/agentic-memory-server"],
+      "env": {
+        "MEMORY_PATH": "/Users/yourusername/your-project-folder",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}
