@@ -26,9 +26,9 @@ Examples of unacceptable behavior include:
 
 ## Enforcement Responsibilities
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+The project maintainer is responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+The project maintainer has the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
 ## Scope
 
@@ -38,7 +38,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by creating an issue in this repository with the label "conduct". All complaints will be reviewed and investigated promptly and fairly.
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+The project maintainer is obligated to respect the privacy and security of the reporter of any incident.
 
 ## AI-Assisted Development Guidelines
 
@@ -49,16 +49,19 @@ This MCP server has been developed with significant assistance from AI tools and
 ### What This Means
 
 **✅ We Embrace AI as a Development Tool**
+
 - Much of this codebase has been created with AI assistance
 - AI tools help us write, debug, and optimize code more efficiently
 - We view AI as a powerful development accelerator, not a replacement for human oversight
 
 **⚠️ We Acknowledge AI Limitations**
+
 - Despite thorough review, we expect bugs and issues to arise over time
 - AI-generated code requires careful human validation and testing
 - No development approach—AI-assisted or traditional—produces perfect code
 
 **🤝 We Welcome Community Contributions**
+
 - We encourage bug reports, feature requests, and improvement suggestions
 - Community feedback helps us identify and resolve issues we may have missed
 - Your contributions make this project better for everyone
@@ -66,15 +69,18 @@ This MCP server has been developed with significant assistance from AI tools and
 ### Contribution Guidelines for AI-Generated Code
 
 **For All Contributors:**
+
 - **Review Requirements**: All code submissions must be thoroughly reviewed before submission, regardless of how they were created
 - **AI Usage**: We don't care if your contribution was written with AI assistance—what matters is code quality and correctness
 - **Testing Responsibility**: Contributors are responsible for testing their code changes before submission
 - **Documentation**: Include clear documentation for any new features or significant changes
 
 **Our Philosophy:**
+
 > AI is a tool—a very powerful one—but it cannot completely create bug-free and problem-free code. Human review, testing, and validation remain essential for quality software development.
 
 **Quality Standards:**
+
 - All code must be readable and maintainable
 - Follow existing code patterns and conventions
 - Include appropriate error handling
@@ -84,6 +90,7 @@ This MCP server has been developed with significant assistance from AI tools and
 ### Reporting AI-Related Issues
 
 If you encounter issues that you suspect may be related to AI-generated code:
+
 - Report them the same way as any other bug
 - Provide detailed reproduction steps
 - Include context about your environment and usage
@@ -92,6 +99,7 @@ If you encounter issues that you suspect may be related to AI-generated code:
 ### Community Support
 
 We're committed to:
+
 - **Transparency** about our development process
 - **Responsiveness** to community feedback and bug reports
 - **Continuous improvement** based on real-world usage and feedback

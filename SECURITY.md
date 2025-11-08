@@ -12,7 +12,7 @@ We release patches for security vulnerabilities for the following versions:
 
 ## Reporting a Vulnerability
 
-The Agentic Memory Server team takes security bugs seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+The Agentic Memory Server maintainer takes security bugs seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
 
 ### How to Report Security Issues
 
@@ -20,7 +20,7 @@ The Agentic Memory Server team takes security bugs seriously. We appreciate your
 
 Instead, please report them via one of the following methods:
 
-1. **Email**: Send an email to `security@prismaero.com` with:
+1. **Email**: Send an email to `kai@prismaquatics.io` with:
    - A description of the vulnerability
    - Steps to reproduce the issue
    - Possible impact
