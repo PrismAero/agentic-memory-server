@@ -1,0 +1,33 @@
+{
+  "name": "@prism.enterprises/agentic-memory-server",
+  "version": "$NEW_VERSION",
+  "description": "Agentic Memory Server: AI-friendly branching memory system for persistent knowledge management across conversations",
+  "license": "MIT",
+  "author": "Kai Wyborny (Enhanced by) - Based on original by Anthropic, PBC",
+  "homepage": "https://github.com/PrismAero/agentic-memory-server",
+  "bugs": "https://github.com/PrismAero/agentic-memory-server/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrismAero/agentic-memory-server.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "assistant",
+    "memory",
+    "knowledge-graph",
+    "branching",
+    "persistent-memory"
+  ],
+  "main": "src/dist/index.js",
+  "bin": {
+    "agentic-memory-server": "src/dist/index.js"
+  },
+  "files": [
+    "src/dist",
+    "README.md",
+    "LICENSE",
+    "examples"
+  ]
+}

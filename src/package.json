@@ -1,0 +1,58 @@
+{
+  "name": "@prism.enterprises/agentic-memory-server-private",
+  "version": "5.0.0",
+  "description": "Agentic Memory Server: AI-friendly branching memory system for persistent knowledge management across conversations",
+  "license": "MIT",
+  "author": "Kai Wyborny (Enhanced memory server with branching system) - Based on original by Anthropic, PBC",
+  "homepage": "https://github.com/PrismAero/agentic-memory-server",
+  "bugs": "https://github.com/PrismAero/agentic-memory-server/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrismAero/mcp-servers.git",
+    "directory": "src/memory"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "memory",
+    "knowledge-graph",
+    "ai",
+    "assistant",
+    "branching",
+    "persistent-memory"
+  ],
+  "type": "module",
+  "bin": {
+    "agentic-memory-server": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "debug": "node debug-server.js",
+    "start": "node dist/index.js",
+    "release:patch": "cd ../.. && npm run release-memory-patch",
+    "release:minor": "cd ../.. && npm run release-memory-minor",
+    "release:major": "cd ../.. && npm run release-memory-major"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.18.2",
+    "better-sqlite3": "^12.4.1",
+    "chalk": "^5.6.2",
+    "stemmer": "^2.0.1",
+    "tiktoken": "^1.0.22"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.5.1",
+    "shx": "^0.4.0",
+    "typescript": "^5.9.2"
+  }
+}
